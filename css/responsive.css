@@ -1,0 +1,109 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav {
+        color: rgba(22, 14, 14, 0.9);
+        text-align: center;
+    }
+    .my-content {
+        text-align: center;
+        padding: 0;
+    }
+    .slider-image {
+        padding-top: 10px;
+    }
+    .category1 h2,
+    .category2 h2,
+    .category3 h2 {
+        padding-top: 10px;
+        padding-left: 75px;
+    }
+    .category1 img,
+    .category2 img,
+    .category3 img {
+        padding-left: 60px;
+    }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav {
+        color: rgba(22, 14, 14, 0.9);
+        text-align: center;
+    }
+    .my-content {
+        text-align: center;
+        padding: 0;
+    }
+    .slider-image {
+        width: 360px;
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+    /* category part */
+    .category1 h2,
+    .category2 h2,
+    .category3 h2 {
+        font-size: 31px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .category1 img,
+    .category2 img,
+    .category3 img {
+        padding-left: 25px;
+    }
+    /* it's for shoe & backpack part */
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav {
+        color: rgba(22, 14, 14, 0.9);
+        text-align: center;
+    }
+    .my-content {
+        text-align: center;
+        padding: 0;
+    }
+    .slider-image {
+        width: 500px;
+        padding-left: 135px;
+        padding-top: 25px;
+    }
+    .category1 h2,
+    .category2 h2,
+    .category3 h2 {
+        font-size: 35px;
+        padding-top: 17px;
+        padding-left: 38px;
+    }
+    .category1 img,
+    .category2 img,
+    .category3 img {
+        padding-left: 25px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

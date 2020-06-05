@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header area start */
+
+.custom-color {
+    background-color: #ddd;
+}
+
+
+/* slider part start */
+
+.slider-bg {
+    background: rgb(245, 146, 179);
+    padding: 30px;
+}
+
+.my-content h2 {
+    font-weight: bold;
+    color: #4d4747;
+    font-size: 60px;
+}
+
+.my-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF0063F5;
+}
+
+.btn-custom {
+    background: #FF0063;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    color: #ffffff;
+}
+
+
+/* slider part end */
+
+
+/* header area end */
+
+
+/* category part start */
+
+.category1 {
+    background: linear-gradient(#f0b734a3, orange);
+}
+
+.category2 {
+    background: linear-gradient(#E43B88, #DF7BCC);
+}
+
+.category3 {
+    background: linear-gradient(#3C37E3, #5B71F0);
+}
+
+.category1,
+.category2,
+.category3 {
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.category1 h2,
+.category2 h2,
+.category3 h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 45px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+
+/* category part end */
+
+
+/* shoes category part start */
+
+.bg-color {
+    background: #F4ECEC;
+    box-shadow: 7px 6px 11px #ddd;
+}
+
+.card-style {
+    padding
+}
+
+.card-style h5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-style h4 {
+    font-weight: bold;
+}
+
+.backpack-part {
+    padding-bottom: 50px
+}
+
+
+/* shoes category part end */
+
+
+/* contact part start */
+
+.contact-part {
+    background: #E6B6C6;
+    padding: 30px 0;
+}
+
+.contact h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact p {
+    text-transform: capitalize;
+    font-size: 23px;
+}
+
+.form-style {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.form-style input {
+    padding-right: 170px;
+}
+
+.contact button {
+    margin: 0;
+    margin-right: 285px;
+}
+
+
+}
+
+/* contact part end */
+
+/* footer part start */
+.text-part h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #959393;
+}
+
+/* footer part end */
